@@ -5,6 +5,6 @@ const TeamSchema = new mongoose.Schema({
   description: String
 });
 
-const Schema = mongoose.model("Schema", TeamSchema);
+const teamSchema = mongoose.model("teamSchema", TeamSchema);
 
-module.exports = { TeamSchema };
+module.exports = { teamSchema };
